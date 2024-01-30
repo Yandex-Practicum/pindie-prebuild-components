@@ -15,7 +15,7 @@ export const AuthForm = () => {
         </label>
       </div>
       <div className={Styles['form__actions']}>
-        <button className={Styles['form__reset']} type="reset">Отмена</button>
+        <button className={Styles['form__reset']} type="reset">Очистить</button>
         <button className={Styles['form__submit']} type="submit">Войти</button>
       </div>
     </form>
